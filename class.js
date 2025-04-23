@@ -343,7 +343,36 @@
 // git push -U origin main
 // Hello World
 
+// Inheritance
+// Purpose of super
+// Purpose of super is to call the constructor of the parent class and initialize the properties of the parent class in the child class
+
+// Prototypes functionaltiy
+
+// class Person {
+//     constructor(firstname, lastname) {
+//         this.firstname = firstname;
+//         this.lastname = lastname;
+//     }
+//     greet() {
+//         console.log("Hello",this.firstname,this.lastname,"Nice to meet you");
+//     }
+// }
+// let person1=new Person("Nishkarsh","Pandey");
+// person1.greet();
+// person1.prototype.introduce=function(){
+//     console.log("My name is",this.firstname,this.lastname);
+// }
+// person1.introduce();
 
 
-
-
+// class Person{
+//     constructor(firstname,lastname){
+//         this.firstname=firstname;
+//         this.lastname=lastname;
+//     }
+// Person.prototype.introduce=function(){
+//     console.log("My name is",this.firstname,this.lastname);
+// }
+// let person2=new Person("Nishkarsh","Pandey");
+// person2.introduce();
